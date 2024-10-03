@@ -1,100 +1,112 @@
-Johnny Coder
+Petro Mozil
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>   I am a qualified engineer with experience in OS development,
+>   GPGPU programming, OS administration and Networking.
+>   I work well in teams and have great communication skills.
 
 ----
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2022-2026 (expected)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
+:   **Bachelors, Computer Science**; Ukrainian Catholic University (Lviv)
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+- **September 2022 - January 2023: CPU design and development**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+    I designed and developed 4 CPUs in SystemVerilog for the de10-nano devkit,
+    according to the specification of 4 ISAs. The work also included writing test scripts
+    written in esoteric assembly and writing documentation for the CPU implementation.
 
-* First item
+- **February 2023 - June 2023: CUDA app development**
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+    I designed a program for simulation of patchy particle systems along with The National Academy of Sciences of Ukraine.
+    [Link](https://ucu-computer-science.github.io/poc,/acs,/os,/c++/2024/09/01/preprints-2024-1.html)
 
-**That Other Job You Had**
+- **2023-2024: Teaching assistant for Principles of Computer organisation and Architecture of Computer  Systems**
 
-Also with a short description.
+    At this position, I was responsible for organising course materials,
+    writing automated tests for laboratory works and assisting students with their studies.
+
+
+- **Google Summer of Code 2024 @ FFmpeg**
+
+    I developed a hardware-accelerated version of the VC-2 codec decoder
+    for [FFmpeg](https://ffmpeg.org/).
+    This job involved optimising data transfer from CPU to GPU with Vulkan API,
+    creating optimised compute pipelines and minimizing disk idle time to speed up the VC-2 codec,
+    as well as writing tests and modifying the build configuration for FFmpeg.
+
+    links:
+
+    -   [https://summerofcode.withgoogle.com/myprojects/details/Vlx5W3Md](https://summerofcode.withgoogle.com/myprojects/details/Vlx5W3Md)
+
+    -   [https://github.com/pmozil/FFmpeg](https://github.com/pmozil/FFmpeg)
+
+
+Spoken Languages
+----------------
+
+- **Ukrainian (native speaker)**
+
+- **English (C1)**
+
+- **German (B2)**
+
+- **Polish (A2)**
+
+Published papers
+----------------
+
+[Modelling Of Protein Systems Using Monte-Carlo Simultaion](https://ucu-computer-science.github.io/poc,/acs,/os,/c++/2024/09/01/preprints-2024-1.html)
 
 Technical Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Projects
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+:   [**Paraflop** - a vulkan ray tracer](https://github.com/pmozil/paraflop)
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+:   [**Zot** - a regex engine written in zig](https://github.com/pmozil/zot)
+
+:   [**Monistode** - a project implementing multiple CPUs for educational purposes](https://github.com/monistode)
 
 Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+:   **C:** I have 4 years of experience with C.
+    I am familiar with C and abstractions of C machine.
+    I used C for my time at FFmpeg, and I am accustomed to writing modern-style C,
+    and have experience with libc.
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+:   **C++:** I have 3 years of experience with C++, and am profficient with STL and boost.
+    I am familliar with most of the C++ standard, with focus on newer parts of it.
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+:   **X86 assembly:** I have experience with X86 assembly, mostly with SYSV ABI.
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+:   **SystemVerilog:** I have experience with SystemVerilog and Verilog and I am able to
+    design digital circuits with it.
 
-[ref]: https://github.com/githubuser/superlongprojectname
+:   **Rust:** I am experienced with Rust and the C/C++ FFI for rust.
 
-Extra Section, Call it Whatever You Want
-----------------------------------------
+:   **CMake**, **make**, **Python**, **bash**, **Zig**
 
-* Human Languages:
+:   Basic knowledge of **ARM assembly**, **Haskell**, **Common Lisp**
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+Additional tools
 
-* Random tidbit
+:   **nmap**, **ss**, **tcpdump**
 
-* Other sort of impressive-sounding thing you did
+:   **gdb**, **lldb**
+
+:   **yosys**, **Quartus**
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <mozil.petryk@gmail.com> • +380 95 967 2148 • 19 years old\
+> address - Lviv, Ukraine

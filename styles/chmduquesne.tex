@@ -7,7 +7,7 @@
 % https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
 
 \startmode[*mkii]
-  \enableregime[utf-8]  
+  \enableregime[utf-8]
   \setupcolors[state=start]
 \stopmode
 $if(mainlang)$
@@ -20,7 +20,7 @@ $endif$
 \definecolor[rulecolor][h=9cb770]
 
 % Enable hyperlinks
-\setupinteraction[state=start, color=sectioncolor]
+\setupinteraction[state=start, color=sectioncolor, packed]
 
 \setuppapersize [$if(papersize)$$papersize$$else$letter$endif$][$if(papersize)$$papersize$$else$letter$endif$]
 \setuplayout    [width=middle, height=middle,
@@ -30,31 +30,31 @@ $endif$
 
 %\setuppagenumbering[location={footer,center}]
 
-\setupbodyfont[11pt, helvetica]
+\setupbodyfont[6.5pt, helvetica]
 
-\setupwhitespace[medium]
+\setupwhitespace[small]
 
-\setupblackrules[width=31mm, color=rulecolor]
+\setupblackrules[width=24mm, color=rulecolor]
 
 \setuphead[chapter]      [style=\tfd]
-\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
-\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
-                          before={\leavevmode\blackrule\hspace}]
-\setuphead[subsubsection][style=\bf]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=right]
+\setuphead[subsection]   [style=\tfd\bf, color=sectioncolor, align=right,
+                          before={\blackrule}]
+\setuphead[subsubsection][style=\tfc\bf]
 
 $if(number-sections)$
 $else$
-\setuphead[chapter, section, subsection, subsubsection][number=no]
+\setuphead[chapter, section, subsection, subsubsection][number=no, packed]
 $endif$
 
 %\setupdescriptions[width=10mm]
 
 \definedescription
   [description]
-  [headstyle=bold, style=normal,
-   location=hanging, width=18mm, distance=14mm, margin=0cm]
+  [headstyle=\tfb\bf, style=normal, packed,
+   location=hanging, width=32mm, distance=24mm, margin=8mm]
 
-\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[autointro, packed]
 \setupitemize[indentnext=no]
 
 \defineitemgroup[enumerate]
@@ -66,7 +66,7 @@ $endif$
 \setuptables[textwidth=max, HL=none]
 \setupxtable[frame=off,option={stretch,width}]
 
-\setupthinrules[width=15em] % width of horizontal rules
+\setupthinrules[width=8em]
 
 \setupdelimitedtext
   [blockquote]
@@ -75,7 +75,7 @@ $endif$
   ]
 
 $if(toc)$
-\setupcombinedlist[content][list={$placelist$}]
+\setupcombinedlist[style=\tfb,content][list={$placelist$}]
 
 $endif$
 $for(header-includes)$
@@ -88,7 +88,7 @@ $if(title)$
   \blank[2*big]
   {\tfd $title$}
 $if(author)$
-  \blank[3*medium]
+  \blank[2*medium]
   {\tfa $for(author)$$author$$sep$\crlf $endfor$}
 $endif$
 $if(date)$
