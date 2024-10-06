@@ -75,11 +75,11 @@ blockquote {
 /* Links */
 a {
     text-decoration: none;
-    color: #397249;
+    color: #a3be8c;
 }
 a:hover, a:active {
     background-color: #397249;
-    color: #FFFFFF;
+    color: #a3be8c;
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
 }

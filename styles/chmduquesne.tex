@@ -6,6 +6,8 @@
 % This CSS document is delivered to you under the CC BY-SA 3.0 License.
 % https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
 
+\usepackage[paperwidth=9in, paperheight=17in, margin=1in, top=1in, bottom=1in]{geometry}
+
 \startmode[*mkii]
   \enableregime[utf-8]
   \setupcolors[state=start]
@@ -30,29 +32,28 @@ $endif$
 
 %\setuppagenumbering[location={footer,center}]
 
-\setupbodyfont[6.5pt, helvetica]
+\setupbodyfont[14pt, helvetica]
 
 \setupwhitespace[small]
 
-\setupblackrules[width=24mm, color=rulecolor]
+\setupblackrules[width=10em, color=rulecolor]
 
-\setuphead[chapter]      [style=\tfd]
-\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=right]
-\setuphead[subsection]   [style=\tfd\bf, color=sectioncolor, align=right,
-                          before={\blackrule}]
-\setuphead[subsubsection][style=\tfc\bf]
+\setuphead[chapter]      [style=\tfb]
+\setuphead[section]      [style=\tfb\bf, color=sectioncolor, align=right,
+                            before={\blackrule}]
+\setuphead[subsection]   [style=\tfb\bf, color=titlegrey, align=right, before={}]
+\setuphead[subsubsection][style=\tfa\bf]
 
 $if(number-sections)$
 $else$
 \setuphead[chapter, section, subsection, subsubsection][number=no, packed]
 $endif$
 
-%\setupdescriptions[width=10mm]
 
 \definedescription
   [description]
-  [headstyle=\tfb\bf, style=normal, packed,
-   location=hanging, width=32mm, distance=24mm, margin=8mm]
+  [headstyle=\tfb\bf, style=normal,
+   location=hanging, width=36mm, distance=24mm, margin=8mm]
 
 \setupitemize[autointro, packed]
 \setupitemize[indentnext=no]
@@ -69,13 +70,13 @@ $endif$
 \setupthinrules[width=8em]
 
 \setupdelimitedtext
-  [blockquote]
+  [blockquote, width=4em]
   [before={\setupalign[middle]},
    indentnext=no,
   ]
 
 $if(toc)$
-\setupcombinedlist[style=\tfb,content][list={$placelist$}]
+\setupcombinedlist[style=\tfa,content][list={$placelist$}]
 
 $endif$
 $for(header-includes)$
@@ -86,7 +87,7 @@ $endfor$
 $if(title)$
 \startalignment[center]
   \blank[2*big]
-  {\tfd $title$}
+  {\tfb $title$}
 $if(author)$
   \blank[2*medium]
   {\tfa $for(author)$$author$$sep$\crlf $endfor$}
