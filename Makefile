@@ -12,7 +12,6 @@ pdf: init
 		pandoc  --css $(STYLES_DIR)/$(STYLE).css \
         		--metadata=lang:"en-US" \
 				--standalone \
-        		--highlight-style=$(STYLES_DIR)/$(STYLE).theme \
 				-V fontsize=14pt \
 				--pdf-engine=xelatex \
 				--output $(OUT_DIR)/$$FILE_NAME.pdf $$f > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
