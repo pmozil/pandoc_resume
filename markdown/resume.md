@@ -1,6 +1,6 @@
 ---
 header-includes: |
-    \usepackage[paperwidth=210mm, paperheight=700mm, margin=2cm, top=2cm, bottom=2cm]{geometry}
+    \usepackage[paperwidth=210mm, paperheight=760mm, margin=1.5cm, top=2cm, bottom=2cm]{geometry}
     \usepackage{setspace}
     \linespread{1.5}
     \usepackage[T1]{fontenc}
@@ -36,22 +36,15 @@ I designed and developed 4 CPUs in SystemVerilog for the de10-nano devkit,
 according to the specification of 4 ISAs. The work also included writing test scripts
 written in esoteric assembly and writing documentation for the CPU implementation.
 
-### 2022-2023: Teaching assistant for Discrete Mathematics
-
-At this position, I was responsible for organising course materials,
-writing automated tests for laboratory works and assisting students with their studies.
-
 ### February 2023 - June 2023: CUDA app development
 
-I designed a program for simulation of patchy particle systems along with The National Academy of Sciences of Ukraine.
+I designed a program for simulation of patchy particle systems.
 [Link](https://ucu-computer-science.github.io/poc,/acs,/os,/c++/2024/09/01/preprints-2024-1.html)
 
-### 2023-2024: Teaching assistant for Principles of Computer organisation and Architecture of Computer  Systems
+### 2023 - 2025: Teaching assistant for Principles of Computer organisation, Architecture of Computer Systems and Operating Systems courses
 
-At this position, I was responsible for more than the Discrete Mathematics Course -
-I edited the course page, organized consultations and (sometimes) lectures and wrote tests
-for the students' lab works.
-
+At this position, I was responsible for  editing the course materials, organizing consultations,
+writing tests for the laboratory works the students submitted and, sometimes, organizing and reading lectures.
 
 ### Google Summer of Code 2024 @ FFmpeg
 
@@ -67,6 +60,12 @@ links:
 
 -   [https://github.com/pmozil/FFmpeg](https://github.com/pmozil/FFmpeg)
 
+### November 20224 - Present: Softwware Engineer @ Infineon
+
+My work at Infineon included writing tests, developing software for the PSoC family of microcontrollers
+and general debugging. On this position, I worked with many communication protocols, such as
+I2C, SPI, UART, USB, CAN-FD, bluetooth and Wi-Fi (mostly TCP).
+I also wrote code for the modus toolbox development environment in Qt and CPP.
 
 ## Spoken Languages
 
@@ -87,32 +86,41 @@ links:
 ### Theoretical knowledge
 
 -   **Internet Protocol**, **User Datagram Protocol**, **Transmission Control Protocol**:
-    I have experience with IP, UDP and TCP from the developer level. I am familiar with header formats, and have experience with manual UDP header creation and parsing.
+    I have experience with IP, UDP and TCP from the developer level.
+    I am familiar with header formats, and have experience with manual UDP header creation and parsing.
 
--   **Rounting algorithms**:
+-   **Routing algorithms**:
     I am familiar with routing algorithms, though I lack practical experience with any dynamic routing algorithms beyond RIP.
 
--   **Linux OS environment**: I am familiar with linux both on the level of OS development as well as OS usage. I am able to manage a linux system as well as write kernel modules to extend it.
+-   **Linux OS environment**: I am familiar with linux both on the level of OS development as well as OS usage.
+    I am able to manage a linux system as well as write kernel modules to extend it.
+
+-   **Computer-Aided Design (CAD):** I have experience with CAD, specifically with designing printed circuit boards and CPUS.
+    I have experience with multiple CAD tools, such ad alterra quartus and KiCAD.
 
 -   **High knowledge of mathematics**: I am familiar with a wide range of mathematical theories:
-    **Set-**, **Category-**, **Group-** theories as well as other branches of abstract algebra:
-    **Algebraic Topology**, **Differential geometry**, **Classic topology**.
-    I am also familiar with applied mathematics: **Measure theory**, **Mathematical analysis**,
-    **Probability theory and statistics** and **Distribution theory**.
+    **mathematical analysis**, **probability theory and statistics**, **linear algebra**, **topology**,
+    **set theory** and **catrgory theory**.
+    I am also familiar, but not profficient with:
+    **Measure theory**,  **algebraic topology** and **Distribution theory**.
 
-    I am able to utilize this theoretical knowledge to solve the problems associated with those theories.
+-   **Parsing and automata**: I have experience with creating ASTs and using them to efficiently process user input.
+    I have created an AST builder and a regex engine. I have also worked with YACC.
 
--   **Machine Learning**: I am familiar with the theoretical parts of Machine Learning, though I have not yet created projects beyond training a transformer model for a chess engine.
+-   **Machine Learning:** I have experience with Machine Learning.
+
 
 ### Projects
 
 -   [**Paraflop** - a vulkan ray tracer](https://github.com/pmozil/paraflop)
 
+-   [**Custom boards for google's CFU playground**](https://github.com/pmozil/cfu_playground_custom_boards)
+
 -   [**Zot** - a regex engine written in zig](https://github.com/pmozil/zot)
 
--   [**Monistode** - a project implementing multiple CPUs for educational purposes](https://github.com/monistode)
+-   [**An AST builder written**](https://github.com/pmozil/ast_builder)
 
--   [**Raycasting experiments in Rust**](https://github.com/pmozil/raycasting-experiments)
+-   [**Monistode** - a project implementing multiple CPUs for educational purposes](https://github.com/monistode)
 
 -   [**Monad implementation with CPP concepts**](https://github.com/pmozil/is_that_a_monad)
 
@@ -128,14 +136,19 @@ links:
 -   **C++:** I have 3 years of experience with C++, and am profficient with STL and boost.
     I am familliar with most of the C++ standard, with focus on newer parts of it.
 
+-   **Python:** I have 5 years of experience with python. I am familiar with the python ecosystem
+    and I have build many apps with python.
+
 -   **X86 assembly:** I have experience with X86 assembly, mostly with SYSV ABI.
 
 -   **SystemVerilog:** I have experience with SystemVerilog and Verilog and I am able to
     design digital circuits with it.
 
+-   **Zig:** I am proficcient in zig and the zig build system. I have experience with zig-c interoperability.
+
 -   **Rust:** I am experienced with Rust and the C/C++ FFI for rust.
 
--   **CMake**, **make**, **Python**, **bash**, **Zig**
+-   **Other useful tools:** **CMake**, **make**, **bash**
 
 -   Basic knowledge of **ARM assembly**, **Haskell**, **Common Lisp**
 
@@ -149,5 +162,6 @@ links:
 
 ----
 
-> <mozil.petryk@gmail.com> • +380 95 967 2148 • 19 years old\
+> <mozil.petryk@gmail.com> • +380 95 867 2148 • 19 years old\
+> [https://github.com/pmozil](https://github.com/pmozil) • [https://www.linkedin.com/in/petro-mozil-a94583170](https://www.linkedin.com/in/petro-mozil-a94583170)
 > address - Lviv, Ukraine
