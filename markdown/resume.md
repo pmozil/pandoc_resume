@@ -1,6 +1,6 @@
 ---
 header-includes: |
-    \usepackage[paperwidth=210mm, paperheight=760mm, margin=1.5cm, top=2cm, bottom=2cm]{geometry}
+    \usepackage[paperwidth=210mm, paperheight=840mm, margin=1.5cm, top=2cm, bottom=2cm]{geometry}
     \usepackage{setspace}
     \linespread{1.5}
     \usepackage[T1]{fontenc}
@@ -15,8 +15,8 @@ Petro Mozil
 ============
 ----
 
->   I am a student at the Ukrainian Catholic University, as well as
->   a qualified engineer with experience in OS / embedded development,
+>   I am a student at the Ukrainian Catholic University,
+>   and an engineer at Infineon, experienced in OS / embedded development,
 >   GPGPU programming and Networking.
 >   I work well in teams and have good communication skills.
 
@@ -67,6 +67,16 @@ and general debugging. On this position, I worked with many communication protoc
 I2C, SPI, UART, USB, CAN-FD, bluetooth and Wi-Fi (mostly TCP).
 I also wrote code for the modus toolbox development environment in Qt and CPP.
 
+### Contributor to CLAD
+
+CLAD (Clang Auto-Differentiation) is a plugin for the clang C/C++ compiler that supports
+automatic differentiation of mathematical functions. I contributed to it by adding support
+for templated functions and more smaller, miscellaneous features.
+
+links:
+
+-   [https://github.com/vgvassilev/clad](https://github.com/vgvassilev/clad)
+
 ## Spoken Languages
 
 - **Ukrainian (native speaker)**
@@ -104,8 +114,8 @@ I also wrote code for the modus toolbox development environment in Qt and CPP.
     I am also familiar, but not profficient with:
     **Measure theory**,  **algebraic topology** and **Distribution theory**.
 
--   **Parsing and automata**: I have experience with creating ASTs and using them to efficiently process user input.
-    I have created an AST builder and a regex engine. I have also worked with YACC.
+-   **Parsing, automata and compilers**: I have experience with creating ASTs and using them to efficiently process user input.
+    I have created an AST builder and a regex engine. I have also worked with YACC,  LLVM and clang's libraries for creating compiler plugins.
 
 -   **Machine Learning:** I have experience with Machine Learning.
 
@@ -128,13 +138,15 @@ I also wrote code for the modus toolbox development environment in Qt and CPP.
 
 ### Programming Languages
 
--   **C:** I have 4 years of experience with C.
+-   **C:** I have 5 years of experience with C, most of it in academic and open-source work.
     I am familiar with C and abstractions of C machine.
     I used C for my time at FFmpeg, and I am accustomed to writing modern-style C,
     and have experience with libc.
 
--   **C++:** I have 3 years of experience with C++, and am profficient with STL and boost.
+-   **C++:** I have 4 years of experience with C++, and am profficient with STL and boost.
     I am familliar with most of the C++ standard, with focus on newer parts of it.
+    Most of my practical experience in CPP comes from my work at Infineon and for CLAD,
+    and my theoretical knowledge of cpp comes from my academic work.
 
 -   **Python:** I have 5 years of experience with python. I am familiar with the python ecosystem
     and I have build many apps with python.
@@ -152,16 +164,16 @@ I also wrote code for the modus toolbox development environment in Qt and CPP.
 
 -   Basic knowledge of **ARM assembly**, **Haskell**, **Common Lisp**
 
-### Additional tools
+### Other Useful Tools I am Experienced With
 
 -   **nmap**, **ss**, **tcpdump**
 
 -   **gdb**, **lldb**
 
--   **yosys**, **Quartus**
+-   **yosys**, **Quartus**, **Vivado**, **litex**
 
 ----
 
-> <mozil.petryk@gmail.com> • +380 95 867 2148 • 19 years old\
+> <mozil.petryk@gmail.com> • +380 95 867 2148 • 20 years old\
 > [https://github.com/pmozil](https://github.com/pmozil) • [https://www.linkedin.com/in/petro-mozil-a94583170](https://www.linkedin.com/in/petro-mozil-a94583170)
-> address - Lviv, Ukraine
+> Address - Lviv, Ukraine
