@@ -32,13 +32,14 @@ Petro Mozil
 
 ### September 2022 - January 2023: CPU design and development
 
-I designed and developed 4 CPUs in SystemVerilog for the de10-nano devkit,
+I designed and developed 4 CPUs in SystemVerilog for the Cyclone V FPGA,
 according to the specification of 4 ISAs. The work also included writing test scripts
-written in esoteric assembly and writing documentation for the CPU implementation.
+written in assembly designed for the 4 ISAs and writing documentation for the CPU implementation.
 
-### February 2023 - June 2023: CUDA app development
+### February 2023 - June 2023: Development of patchy-particle systems simulation in CUDA
 
 I designed a program for simulation of patchy particle systems.
+It included multiple thermodynamic ensembles as well as a multiple potential calculation methods, e. g. MD and Monte-Carlo.
 [Link](https://ucu-computer-science.github.io/poc,/acs,/os,/c++/2024/09/01/preprints-2024-1.html)
 
 ### 2023 - 2025: Teaching assistant for Principles of Computer organisation, Architecture of Computer Systems and Operating Systems courses
